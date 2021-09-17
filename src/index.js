@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import TodoForm from './todo-form';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoForm />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();
