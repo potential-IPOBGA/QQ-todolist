@@ -18,11 +18,11 @@ const AddTodo = () => {
     };
 
     const handleAddClick = (() => {
-        setId(id => id+1)
         dispatch({ type: "ADD_TODO", payload:
                 {id: id, name: input, checked: false, disabled: true}
         });
         setInput('')
+        setId(id => id+1)
     });
 
     return (
