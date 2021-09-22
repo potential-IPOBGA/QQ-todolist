@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  todolist-front-end:
+    build: todolist-front-end
+    image: todolist:front-end
+    container_name: todo-front
+    ports:
+      - '3000:3000'

@@ -27,7 +27,10 @@ yarn install
 ```shell
 docker run -p 3000:3000 todolist:front-end
 ```
-
+or
+```shell
+docker compose up
+```
 ###Without docker
 
 ```shell
